@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476160431BE17753004C88F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476160421BE17753004C88F5 /* AppDelegate.swift */; };
+		476160451BE17753004C88F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476160441BE17753004C88F5 /* ViewController.swift */; };
+		476160481BE17753004C88F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476160461BE17753004C88F5 /* Main.storyboard */; };
+		4761604A1BE17753004C88F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476160491BE17753004C88F5 /* Images.xcassets */; };
+		4761604D1BE17753004C88F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4761604B1BE17753004C88F5 /* LaunchScreen.storyboard */; };
+		476160581BE17753004C88F5 /* Gunn_TBNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476160571BE17753004C88F5 /* Gunn_TBNTests.swift */; };
+		476160631BE17753004C88F5 /* Gunn_TBNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476160621BE17753004C88F5 /* Gunn_TBNUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476160541BE17753004C88F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476160371BE17753004C88F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4761603E1BE17753004C88F5;
+			remoteInfo = "Gunn TBN";
+		};
+		4761605F1BE17753004C88F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476160371BE17753004C88F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4761603E1BE17753004C88F5;
+			remoteInfo = "Gunn TBN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4761603F1BE17753004C88F5 /* Gunn TBN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gunn TBN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476160421BE17753004C88F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		476160441BE17753004C88F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		476160471BE17753004C88F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476160491BE17753004C88F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4761604C1BE17753004C88F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4761604E1BE17753004C88F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476160531BE17753004C88F5 /* Gunn TBNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gunn TBNTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476160571BE17753004C88F5 /* Gunn_TBNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gunn_TBNTests.swift; sourceTree = "<group>"; };
+		476160591BE17753004C88F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4761605E1BE17753004C88F5 /* Gunn TBNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gunn TBNUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476160621BE17753004C88F5 /* Gunn_TBNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gunn_TBNUITests.swift; sourceTree = "<group>"; };
+		476160641BE17753004C88F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4761603C1BE17753004C88F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476160501BE17753004C88F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761605B1BE17753004C88F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476160361BE17753004C88F5 = {
+			isa = PBXGroup;
+			children = (
+				476160411BE17753004C88F5 /* Gunn TBN */,
+				476160561BE17753004C88F5 /* Gunn TBNTests */,
+				476160611BE17753004C88F5 /* Gunn TBNUITests */,
+				476160401BE17753004C88F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476160401BE17753004C88F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4761603F1BE17753004C88F5 /* Gunn TBN.app */,
+				476160531BE17753004C88F5 /* Gunn TBNTests.xctest */,
+				4761605E1BE17753004C88F5 /* Gunn TBNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476160411BE17753004C88F5 /* Gunn TBN */ = {
+			isa = PBXGroup;
+			children = (
+				476160421BE17753004C88F5 /* AppDelegate.swift */,
+				476160441BE17753004C88F5 /* ViewController.swift */,
+				476160461BE17753004C88F5 /* Main.storyboard */,
+				476160491BE17753004C88F5 /* Images.xcassets */,
+				4761604B1BE17753004C88F5 /* LaunchScreen.storyboard */,
+				4761604E1BE17753004C88F5 /* Info.plist */,
+			);
+			path = "Gunn TBN";
+			sourceTree = "<group>";
+		};
+		476160561BE17753004C88F5 /* Gunn TBNTests */ = {
+			isa = PBXGroup;
+			children = (
+				476160571BE17753004C88F5 /* Gunn_TBNTests.swift */,
+				476160591BE17753004C88F5 /* Info.plist */,
+			);
+			path = "Gunn TBNTests";
+			sourceTree = "<group>";
+		};
+		476160611BE17753004C88F5 /* Gunn TBNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				476160621BE17753004C88F5 /* Gunn_TBNUITests.swift */,
+				476160641BE17753004C88F5 /* Info.plist */,
+			);
+			path = "Gunn TBNUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4761603E1BE17753004C88F5 /* Gunn TBN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476160671BE17753004C88F5 /* Build configuration list for PBXNativeTarget "Gunn TBN" */;
+			buildPhases = (
+				4761603B1BE17753004C88F5 /* Sources */,
+				4761603C1BE17753004C88F5 /* Frameworks */,
+				4761603D1BE17753004C88F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gunn TBN";
+			productName = "Gunn TBN";
+			productReference = 4761603F1BE17753004C88F5 /* Gunn TBN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476160521BE17753004C88F5 /* Gunn TBNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4761606A1BE17753004C88F5 /* Build configuration list for PBXNativeTarget "Gunn TBNTests" */;
+			buildPhases = (
+				4761604F1BE17753004C88F5 /* Sources */,
+				476160501BE17753004C88F5 /* Frameworks */,
+				476160511BE17753004C88F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476160551BE17753004C88F5 /* PBXTargetDependency */,
+			);
+			name = "Gunn TBNTests";
+			productName = "Gunn TBNTests";
+			productReference = 476160531BE17753004C88F5 /* Gunn TBNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4761605D1BE17753004C88F5 /* Gunn TBNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4761606D1BE17753004C88F5 /* Build configuration list for PBXNativeTarget "Gunn TBNUITests" */;
+			buildPhases = (
+				4761605A1BE17753004C88F5 /* Sources */,
+				4761605B1BE17753004C88F5 /* Frameworks */,
+				4761605C1BE17753004C88F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476160601BE17753004C88F5 /* PBXTargetDependency */,
+			);
+			name = "Gunn TBNUITests";
+			productName = "Gunn TBNUITests";
+			productReference = 4761605E1BE17753004C88F5 /* Gunn TBNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476160371BE17753004C88F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xavi Loinaz";
+				TargetAttributes = {
+					4761603E1BE17753004C88F5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 282V6W269K;
+					};
+					476160521BE17753004C88F5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4761603E1BE17753004C88F5;
+					};
+					4761605D1BE17753004C88F5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4761603E1BE17753004C88F5;
+					};
+				};
+			};
+			buildConfigurationList = 4761603A1BE17753004C88F5 /* Build configuration list for PBXProject "Gunn TBN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476160361BE17753004C88F5;
+			productRefGroup = 476160401BE17753004C88F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4761603E1BE17753004C88F5 /* Gunn TBN */,
+				476160521BE17753004C88F5 /* Gunn TBNTests */,
+				4761605D1BE17753004C88F5 /* Gunn TBNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4761603D1BE17753004C88F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4761604D1BE17753004C88F5 /* LaunchScreen.storyboard in Resources */,
+				4761604A1BE17753004C88F5 /* Images.xcassets in Resources */,
+				476160481BE17753004C88F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476160511BE17753004C88F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761605C1BE17753004C88F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4761603B1BE17753004C88F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476160451BE17753004C88F5 /* ViewController.swift in Sources */,
+				476160431BE17753004C88F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761604F1BE17753004C88F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476160581BE17753004C88F5 /* Gunn_TBNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4761605A1BE17753004C88F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476160631BE17753004C88F5 /* Gunn_TBNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476160551BE17753004C88F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4761603E1BE17753004C88F5 /* Gunn TBN */;
+			targetProxy = 476160541BE17753004C88F5 /* PBXContainerItemProxy */;
+		};
+		476160601BE17753004C88F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4761603E1BE17753004C88F5 /* Gunn TBN */;
+			targetProxy = 4761605F1BE17753004C88F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		476160461BE17753004C88F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476160471BE17753004C88F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4761604B1BE17753004C88F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4761604C1BE17753004C88F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		476160651BE17753004C88F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		476160661BE17753004C88F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476160681BE17753004C88F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = "Gunn TBN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.xaviloinaz.Gunn-TBN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		476160691BE17753004C88F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = "Gunn TBN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.xaviloinaz.Gunn-TBN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4761606B1BE17753004C88F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gunn TBNTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.xaviloinaz.Gunn-TBNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gunn TBN.app/Gunn TBN";
+			};
+			name = Debug;
+		};
+		4761606C1BE17753004C88F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gunn TBNTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.xaviloinaz.Gunn-TBNTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gunn TBN.app/Gunn TBN";
+			};
+			name = Release;
+		};
+		4761606E1BE17753004C88F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gunn TBNUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.xaviloinaz.Gunn-TBNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gunn TBN";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4761606F1BE17753004C88F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gunn TBNUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.xaviloinaz.Gunn-TBNUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gunn TBN";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4761603A1BE17753004C88F5 /* Build configuration list for PBXProject "Gunn TBN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476160651BE17753004C88F5 /* Debug */,
+				476160661BE17753004C88F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476160671BE17753004C88F5 /* Build configuration list for PBXNativeTarget "Gunn TBN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476160681BE17753004C88F5 /* Debug */,
+				476160691BE17753004C88F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4761606A1BE17753004C88F5 /* Build configuration list for PBXNativeTarget "Gunn TBNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4761606B1BE17753004C88F5 /* Debug */,
+				4761606C1BE17753004C88F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4761606D1BE17753004C88F5 /* Build configuration list for PBXNativeTarget "Gunn TBNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4761606E1BE17753004C88F5 /* Debug */,
+				4761606F1BE17753004C88F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476160371BE17753004C88F5 /* Project object */;
+}
