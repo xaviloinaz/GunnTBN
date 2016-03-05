@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -18,16 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DMl-We-eR6">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMl-We-eR6">
                                 <rect key="frame" x="0.0" y="340" width="320" height="228"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Gunn Titan Broadcast Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQo-Pa-hJL">
-                                        <rect key="frame" x="-2" y="0.0" width="324" height="42"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gunn Titan Broadcast Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQo-Pa-hJL">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="26"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQF-xs-sdN">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQF-xs-sdN">
                                         <rect key="frame" x="50" y="161" width="220" height="39"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -41,18 +41,7 @@
                                             <action selector="goToAnnouncementForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twA-Li-hLH"/>
                                         </connections>
                                     </button>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Instagram Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-eH-xk6">
-                                        <rect key="frame" x="215" y="55" width="70" height="71"/>
-                                        <gestureRecognizers/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="cdR-56-Wdo"/>
-                                            <constraint firstAttribute="width" secondItem="Wih-eH-xk6" secondAttribute="height" multiplier="70:71" id="fy3-sP-WS7"/>
-                                        </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="PCN-xE-BDL" appends="YES" id="G2a-vO-vqz"/>
-                                        </connections>
-                                    </imageView>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Facebook Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NSJ-wN-5dg">
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NSJ-wN-5dg">
                                         <rect key="frame" x="135" y="51" width="51" height="79"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -63,8 +52,8 @@
                                             <outletCollection property="gestureRecognizers" destination="ABy-It-Qjp" appends="YES" id="V2c-55-cg3"/>
                                         </connections>
                                     </imageView>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="YouTube Logo" translatesAutoresizingMaskIntoConstraints="NO" id="efe-OO-Y0T">
-                                        <rect key="frame" x="28" y="55" width="90" height="69"/>
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouTube Logo" translatesAutoresizingMaskIntoConstraints="NO" id="efe-OO-Y0T">
+                                        <rect key="frame" x="27" y="55" width="90" height="69"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="2nb-9J-ORK"/>
@@ -72,6 +61,17 @@
                                         </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="YmE-EQ-jd1" appends="YES" id="k6r-P5-5uQ"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-eH-xk6">
+                                        <rect key="frame" x="215" y="55" width="70" height="71"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="cdR-56-Wdo"/>
+                                            <constraint firstAttribute="width" secondItem="Wih-eH-xk6" secondAttribute="height" multiplier="70:71" id="fy3-sP-WS7"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="PCN-xE-BDL" appends="YES" id="G2a-vO-vqz"/>
                                         </connections>
                                     </imageView>
                                 </subviews>
@@ -90,7 +90,7 @@
                                     <constraint firstItem="qQo-Pa-hJL" firstAttribute="top" secondItem="DMl-We-eR6" secondAttribute="top" id="xVY-7g-AeX"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Gunn TBN Logo" translatesAutoresizingMaskIntoConstraints="NO" id="JqG-pB-C8q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gunn TBN Logo" translatesAutoresizingMaskIntoConstraints="NO" id="JqG-pB-C8q">
                                 <rect key="frame" x="0.0" y="20" width="320" height="320"/>
                                 <color key="backgroundColor" red="0.83921568627450982" green="0.0" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -100,6 +100,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.88445321784016639" green="0.0" blue="0.024592773743103733" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="JqG-pB-C8q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KhP-94-fku"/>
                             <constraint firstItem="DMl-We-eR6" firstAttribute="top" secondItem="JqG-pB-C8q" secondAttribute="bottom" id="LJ6-d9-WZu"/>
                             <constraint firstItem="NSJ-wN-5dg" firstAttribute="centerX" secondItem="JqG-pB-C8q" secondAttribute="centerX" id="M75-MY-gRd"/>
                             <constraint firstItem="DMl-We-eR6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YlA-27-h1A"/>
