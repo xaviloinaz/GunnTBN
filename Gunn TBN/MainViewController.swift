@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  Gunn TBN
 //
-//  Created by Xavi Loinaz on 10/28/15.
-//  Copyright © 2015 Xavi Loinaz. All rights reserved.
+//  Created by Xavi Loinaz on 3/5/16.
+//  Copyright © 2016 Xavi Loinaz. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goToBroadcast(sender: AnyObject) {
-        if let url = NSURL(string: "http://gunntv.com/live/") {
+        if let url = NSURL(string: "https://www.youtube.com/user/gunntv") {
             UIApplication.sharedApplication().openURL(url)
         }
     }
@@ -44,4 +44,5 @@ class ViewController: UIViewController {
             UIApplication.sharedApplication().openURL(url)
         }
     }
+
 }

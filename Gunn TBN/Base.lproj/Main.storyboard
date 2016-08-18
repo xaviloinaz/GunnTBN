@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gunn_TBN" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Gunn_TBN" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,120 +21,149 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMl-We-eR6">
                                 <rect key="frame" x="0.0" y="340" width="320" height="228"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gunn Titan Broadcast Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQo-Pa-hJL">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="26"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQF-xs-sdN">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQF-xs-sdN">
                                         <rect key="frame" x="50" y="161" width="220" height="39"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="cQF-xs-sdN" secondAttribute="height" multiplier="220:39" id="WET-eu-BgZ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39" id="C8W-xf-L4O"/>
+                                            <constraint firstAttribute="width" secondItem="cQF-xs-sdN" secondAttribute="height" multiplier="220:39" id="ltb-kh-eLS"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                         <state key="normal" title="TBN's Announcement Form">
                                             <color key="titleColor" red="0.84705882352941175" green="0.0" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="goToAnnouncementForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="twA-Li-hLH"/>
+                                            <action selector="goToAnnouncementForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9CW-8x-Z7T"/>
                                         </connections>
                                     </button>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NSJ-wN-5dg">
-                                        <rect key="frame" x="135" y="51" width="51" height="79"/>
-                                        <gestureRecognizers/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRx-c6-xPv">
+                                        <rect key="frame" x="28" y="73" width="86" height="56"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="51" id="fj5-In-agP"/>
-                                            <constraint firstAttribute="width" secondItem="NSJ-wN-5dg" secondAttribute="height" multiplier="51:79" id="sYa-Vs-8U2"/>
+                                            <constraint firstAttribute="width" secondItem="HRx-c6-xPv" secondAttribute="height" multiplier="84:55" id="2ll-wk-3tk"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="64" id="TEz-XJ-5t2"/>
                                         </constraints>
+                                        <state key="normal" title="Button" image="YouTube Logo 15-57-46-816"/>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="ABy-It-Qjp" appends="YES" id="V2c-55-cg3"/>
+                                            <action selector="goToBroadcast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYb-CU-U2J"/>
                                         </connections>
-                                    </imageView>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouTube Logo" translatesAutoresizingMaskIntoConstraints="NO" id="efe-OO-Y0T">
-                                        <rect key="frame" x="27" y="55" width="90" height="69"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Gunn Titan Broadcast Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="qQo-Pa-hJL">
+                                        <rect key="frame" x="10" y="8" width="300" height="35.5"/>
                                         <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQG-5I-Xuv">
+                                        <rect key="frame" x="138" y="62" width="44" height="79"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="90" id="2nb-9J-ORK"/>
-                                            <constraint firstAttribute="width" secondItem="efe-OO-Y0T" secondAttribute="height" multiplier="30:23" id="IGd-Oj-Ehn"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="96" id="o2L-WH-159"/>
+                                            <constraint firstAttribute="width" secondItem="YQG-5I-Xuv" secondAttribute="height" multiplier="43:78" id="ySF-YM-Tv6"/>
                                         </constraints>
+                                        <state key="normal" title="Button" image="Facebook Logo 2.36.36 PM"/>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="YmE-EQ-jd1" appends="YES" id="k6r-P5-5uQ"/>
+                                            <action selector="goToFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="970-gq-hvO"/>
                                         </connections>
-                                    </imageView>
-                                    <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Instagram Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Wih-eH-xk6">
-                                        <rect key="frame" x="215" y="55" width="70" height="71"/>
-                                        <gestureRecognizers/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n30-ez-2qR">
+                                        <rect key="frame" x="211" y="67" width="69.5" height="69"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="cdR-56-Wdo"/>
-                                            <constraint firstAttribute="width" secondItem="Wih-eH-xk6" secondAttribute="height" multiplier="70:71" id="fy3-sP-WS7"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="79" id="3T0-sG-Y1c"/>
+                                            <constraint firstAttribute="width" secondItem="n30-ez-2qR" secondAttribute="height" multiplier="70:69" id="hvM-k8-BXG"/>
                                         </constraints>
+                                        <state key="normal" title="Button" image="instagram_icon"/>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="PCN-xE-BDL" appends="YES" id="G2a-vO-vqz"/>
+                                            <action selector="goToInstagram:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dso-7b-J7S"/>
                                         </connections>
-                                    </imageView>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.88627450980392153" green="0.0" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="qQo-Pa-hJL" secondAttribute="trailing" id="5st-3t-gMD"/>
-                                    <constraint firstItem="efe-OO-Y0T" firstAttribute="top" secondItem="qQo-Pa-hJL" secondAttribute="bottom" constant="29" id="9dP-KD-xK4"/>
-                                    <constraint firstAttribute="trailing" secondItem="Wih-eH-xk6" secondAttribute="trailing" constant="35" id="AWX-MW-PQd"/>
+                                    <constraint firstAttribute="trailing" secondItem="qQo-Pa-hJL" secondAttribute="trailing" constant="10" id="5st-3t-gMD"/>
+                                    <constraint firstItem="cQF-xs-sdN" firstAttribute="centerX" secondItem="DMl-We-eR6" secondAttribute="centerX" id="7iJ-xQ-WxY"/>
+                                    <constraint firstItem="qQo-Pa-hJL" firstAttribute="centerX" secondItem="DMl-We-eR6" secondAttribute="centerX" id="7mA-fl-Hgj"/>
+                                    <constraint firstItem="n30-ez-2qR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="qQo-Pa-hJL" secondAttribute="bottom" constant="24" id="AHt-oc-Oq1"/>
+                                    <constraint firstItem="n30-ez-2qR" firstAttribute="leading" secondItem="YQG-5I-Xuv" secondAttribute="trailing" constant="29" id="Dvq-Zf-QJP"/>
+                                    <constraint firstItem="YQG-5I-Xuv" firstAttribute="leading" secondItem="HRx-c6-xPv" secondAttribute="trailing" constant="24" id="Exs-Nj-pRW"/>
+                                    <constraint firstItem="HRx-c6-xPv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="qQo-Pa-hJL" secondAttribute="bottom" constant="30" id="Hxd-WT-hY3"/>
                                     <constraint firstAttribute="bottom" secondItem="cQF-xs-sdN" secondAttribute="bottom" constant="28" id="Kmz-PB-NaT"/>
-                                    <constraint firstItem="Wih-eH-xk6" firstAttribute="top" secondItem="qQo-Pa-hJL" secondAttribute="bottom" constant="29" id="PN8-qC-mBC"/>
-                                    <constraint firstAttribute="trailing" secondItem="cQF-xs-sdN" secondAttribute="trailing" constant="50" id="SCf-Ts-3ef"/>
-                                    <constraint firstItem="efe-OO-Y0T" firstAttribute="leading" secondItem="DMl-We-eR6" secondAttribute="leading" constant="27" id="bjJ-D9-SOH"/>
-                                    <constraint firstItem="NSJ-wN-5dg" firstAttribute="top" secondItem="qQo-Pa-hJL" secondAttribute="bottom" constant="25" id="hAi-q7-fiT"/>
-                                    <constraint firstItem="cQF-xs-sdN" firstAttribute="leading" secondItem="DMl-We-eR6" secondAttribute="leading" constant="50" id="sUm-wL-Qh3"/>
-                                    <constraint firstItem="qQo-Pa-hJL" firstAttribute="leading" secondItem="DMl-We-eR6" secondAttribute="leading" id="tKf-Tg-V0c"/>
-                                    <constraint firstItem="qQo-Pa-hJL" firstAttribute="top" secondItem="DMl-We-eR6" secondAttribute="top" id="xVY-7g-AeX"/>
+                                    <constraint firstAttribute="width" secondItem="DMl-We-eR6" secondAttribute="height" multiplier="80:57" id="OdP-E3-ryA"/>
+                                    <constraint firstItem="cQF-xs-sdN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="YQG-5I-Xuv" secondAttribute="bottom" constant="20" id="UB7-WA-uC1"/>
+                                    <constraint firstItem="YQG-5I-Xuv" firstAttribute="centerX" secondItem="DMl-We-eR6" secondAttribute="centerX" id="YVX-Ui-d3n"/>
+                                    <constraint firstItem="YQG-5I-Xuv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="qQo-Pa-hJL" secondAttribute="bottom" constant="15" id="ZAD-gd-cf1"/>
+                                    <constraint firstItem="cQF-xs-sdN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="n30-ez-2qR" secondAttribute="bottom" constant="25" id="k7d-vU-M1B"/>
+                                    <constraint firstItem="cQF-xs-sdN" firstAttribute="top" relation="greaterThanOrEqual" secondItem="HRx-c6-xPv" secondAttribute="bottom" constant="31" id="sbu-f6-8i2"/>
+                                    <constraint firstItem="qQo-Pa-hJL" firstAttribute="leading" secondItem="DMl-We-eR6" secondAttribute="leading" constant="10" id="tKf-Tg-V0c"/>
+                                    <constraint firstItem="YQG-5I-Xuv" firstAttribute="centerY" secondItem="HRx-c6-xPv" secondAttribute="centerY" id="ueg-Kw-T52"/>
+                                    <constraint firstItem="n30-ez-2qR" firstAttribute="centerY" secondItem="HRx-c6-xPv" secondAttribute="centerY" id="vxO-If-7vq"/>
+                                    <constraint firstItem="qQo-Pa-hJL" firstAttribute="top" secondItem="DMl-We-eR6" secondAttribute="top" constant="8" id="xVY-7g-AeX"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gunn TBN Logo" translatesAutoresizingMaskIntoConstraints="NO" id="JqG-pB-C8q">
                                 <rect key="frame" x="0.0" y="20" width="320" height="320"/>
                                 <color key="backgroundColor" red="0.83921568627450982" green="0.0" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="JqG-pB-C8q" secondAttribute="height" multiplier="1:1" id="mK7-Pe-cKk"/>
-                                </constraints>
+                                <gestureRecognizers/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.88445321784016639" green="0.0" blue="0.024592773743103733" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="JqG-pB-C8q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="KhP-94-fku"/>
                             <constraint firstItem="DMl-We-eR6" firstAttribute="top" secondItem="JqG-pB-C8q" secondAttribute="bottom" id="LJ6-d9-WZu"/>
-                            <constraint firstItem="NSJ-wN-5dg" firstAttribute="centerX" secondItem="JqG-pB-C8q" secondAttribute="centerX" id="M75-MY-gRd"/>
                             <constraint firstItem="DMl-We-eR6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YlA-27-h1A"/>
                             <constraint firstItem="JqG-pB-C8q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="btl-7J-8hm"/>
+                            <constraint firstItem="qQo-Pa-hJL" firstAttribute="top" secondItem="JqG-pB-C8q" secondAttribute="bottom" constant="8" id="g84-AB-rNZ"/>
                             <constraint firstAttribute="trailing" secondItem="JqG-pB-C8q" secondAttribute="trailing" id="lcz-6x-76o"/>
                             <constraint firstAttribute="trailing" secondItem="DMl-We-eR6" secondAttribute="trailing" id="lps-8I-9uA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DMl-We-eR6" secondAttribute="bottom" id="xpC-fs-fjA"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="HkI-lr-Vij" appends="YES" id="oyg-YC-hYs"/>
+                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="QSq-hb-ZSb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="YmE-EQ-jd1">
+                <swipeGestureRecognizer direction="left" id="HkI-lr-Vij">
                     <connections>
-                        <action selector="goToBroadcast:" destination="BYZ-38-t0r" id="X19-af-Nrx"/>
+                        <segue destination="kol-WE-v47" kind="modal" id="sQ2-vM-4oU"/>
                     </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="ABy-It-Qjp">
-                    <connections>
-                        <action selector="goToFacebook:" destination="BYZ-38-t0r" id="zdN-BU-ZG4"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="PCN-xE-BDL">
-                    <connections>
-                        <action selector="goToInstagram:" destination="BYZ-38-t0r" id="a69-mU-XxD"/>
-                    </connections>
-                </tapGestureRecognizer>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="162" y="329.99999999999994"/>
+            <point key="canvasLocation" x="684" y="323"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="k1t-kW-cvP">
+            <objects>
+                <viewController id="kol-WE-v47" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QW0-n9-3EZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="YWi-B9-A3G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qKv-qM-INI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to be used as entertainment feature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-5F-OQM">
+                                <rect key="frame" x="23" y="220" width="274" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ToM-Ch-XGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1085" y="323"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Facebook Logo" width="612" height="792"/>
+        <image name="Facebook Logo 2.36.36 PM" width="449" height="786"/>
         <image name="Gunn TBN Logo" width="750" height="750"/>
-        <image name="Instagram Logo" width="612" height="792"/>
-        <image name="YouTube Logo" width="612" height="792"/>
+        <image name="YouTube Logo 15-57-46-816" width="587" height="417"/>
+        <image name="instagram_icon" width="1138" height="1151"/>
     </resources>
 </document>
